@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { Contact, Button } from './RenderContacts.styled';
 
 export const RenderContacts = ({ contacts, onDelete }) => {
-  // console.log(contacts);
   return (
     <>
       {contacts.map(contact => (
